@@ -1,0 +1,79 @@
+html {
+  font-family: "Figtree", Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  user-select: none;
+}
+
+.container {
+  min-height: 100vh;
+  background-color: var(--yellow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  width: 380px;
+  height: 550px;
+  gap: 10px;
+  border-radius: 15px;
+  box-shadow: 8px 8px var(--black);
+  justify-content: center;
+  border: 1px solid var(--black);
+}
+.card .card-img {
+  padding: 15px;
+  max-width: 100%;
+}
+.card .card-img img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card .info {
+  margin-left: 10px;
+}
+
+.card .info .info-block {
+  background-color: var(--yellow);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-weight: 800;
+}
+.card .info .info-divider {
+  padding: 10px;
+}
+
+.card .description-container .title {
+  display: inline-block;
+  margin: 10px 0;
+  font-weight: 800;
+}
+.card .description-container .title:hover {
+  cursor: pointer;
+  color: var(--yellow);
+  transition: ease-out 0.3s;
+}
+.card .description-container {
+  padding: 0 10px;
+}
+
+.card .footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 25px 8px;
+}
+.card .footer-container .img-container img {
+  display: block;
+  max-width: 40px;
+}
+.card .footer-container .name {
+  font-weight: 800;
+}
