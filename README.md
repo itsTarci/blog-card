@@ -14,7 +14,7 @@ Thanks for checking out!
 
   2- Acess the project's folder
   ```
-  cd bikcraft-site
+  cd blog-card
   ```
 
   ## Preview
